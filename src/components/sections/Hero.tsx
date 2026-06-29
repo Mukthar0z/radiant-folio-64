@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Mail } from "lucide-react";
-import { Particles } from "./Particles";
+import { Particles } from "../Particles";
 import { profile } from "@/data/portfolio";
 
 export function Hero() {
