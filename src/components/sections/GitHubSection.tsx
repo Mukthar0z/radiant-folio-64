@@ -33,14 +33,7 @@ export function GitHubSection() {
         <SectionHeading
           eyebrow="Open Source"
           title="On GitHub"
-          description={
-            <>
-              Follow my work at{" "}
-              <a href={profile.github} target="_blank" rel="noreferrer" className="text-foreground underline-offset-4 hover:underline">
-                @{profile.githubUser}
-              </a>
-            </>
-          as unknown as string}
+          description={`Follow my work at @${profile.githubUser}`}
         />
 
         <div className="grid gap-4 md:grid-cols-4">
