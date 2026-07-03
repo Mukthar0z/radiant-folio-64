@@ -16,7 +16,7 @@ export const profile = {
   github: "https://github.com/Mukthar0z",
   githubUser: "Mukthar0z",
   linkedin: "", // add your LinkedIn URL here
-  resumeUrl: "/resume.pdf", // place resume.pdf in /public to enable download
+  resumeUrl: "/Abdulraheem_Mukhtar_Resume.docx",
 };
 
 export const timeline = [
@@ -47,8 +47,8 @@ export const featuredProject = {
     { phase: "Evaluation", text: "Achieved high validation accuracy across multiple crop classes." },
     { phase: "Deployment", text: "Built Flask web app for real-time image inference." },
   ],
-  github: "https://github.com/Mukthar0z",
-  demo: "",
+  github: "https://drive.google.com/drive/folders/1Q9EjpuU0-V0lozS-wr_h8Rj7hP9AoAlI?usp=drive_link",
+  demo: "https://drive.google.com/drive/folders/1Q9EjpuU0-V0lozS-wr_h8Rj7hP9AoAlI?usp=drive_link",
 };
 
 export const projects = [
@@ -58,7 +58,7 @@ export const projects = [
       "AI-powered study assistant. Upload notes, PDFs, or images and auto-generate summaries, flashcards, quizzes, study tips, and personalized revision plans.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Gemini API", "OCR"],
     github: "",
-    demo: "",
+    demo: "https://study-genie-ai-platform.lovable.app",
   },
   {
     title: "HustleSpark Generator",
@@ -66,7 +66,15 @@ export const projects = [
       "AI-powered content idea generator for creators — generates ideas, writing inspiration, and topic discovery.",
     tech: ["React", "AI", "TypeScript"],
     github: "",
-    demo: "",
+    demo: "https://spark-your-sidekick.lovable.app/",
+  },
+  {
+    title: "Project Atlas",
+    description:
+      "Skill path finder that helps learners map out personalized learning journeys toward their target careers.",
+    tech: ["React", "TypeScript", "AI"],
+    github: "",
+    demo: "https://skill-path-finder-69.lovable.app",
   },
   {
     title: "Password Strength Checker",
